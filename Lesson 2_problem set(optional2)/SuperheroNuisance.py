@@ -41,7 +41,7 @@ def fix_machine(debris, product):
     if d_pros > 0:
         return product
     else:
-        return 'Give me something that is useless next time.'
+        return "Give me something that's not useless next time."
 
 ### TEST CASES ###
 print "Test case 1: ", fix_machine('UdaciousUdacitee', 'Udacity') #== "Give me something that's not useless next time."
